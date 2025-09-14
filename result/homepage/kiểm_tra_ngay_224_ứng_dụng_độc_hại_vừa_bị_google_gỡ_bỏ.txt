@@ -1,0 +1,20 @@
+Một hoạt động gian lận quảng cáo Android quy mô lớn đã bị phá vỡ sau khi 224 ứng dụng độc hại trên Google Play bị gỡ bỏ.
+Một hoạt động gian lận quảng cáo Android quy mô lớn có tên "SlopAds" đã bị phá vỡ sau khi 224 ứng dụng độc hại trên Google Play được sử dụng để tạo ra 2,3 tỷ yêu cầu quảng cáo mỗi ngày.
+Nhóm Satori Threat Intelligence của HUMAN đã phát hiện ra chiến dịch gian lận quảng cáo này. Nhóm này báo cáo rằng các ứng dụng đã được tải xuống hơn 38 triệu lần và sử dụng kỹ thuật che giấu và viết chữ ẩn để che giấu hành vi độc hại khỏi Google và các công cụ bảo mật.
+Chiến dịch này được triển khai trên toàn thế giới, với người dùng cài đặt ứng dụng từ 228 quốc gia và lưu lượng truy cập SlopAds chiếm 2,3 tỷ yêu cầu đặt giá thầu mỗi ngày. Lượng hiển thị quảng cáo tập trung cao nhất đến từ Hoa Kỳ (30%), tiếp theo là Ấn Độ (10%) và Brazil (7%).
+"Các nhà nghiên cứu gọi hoạt động này là 'SlopAds' vì các ứng dụng liên quan đến mối đe dọa này có vẻ ngoài được sản xuất hàng loạt, giống như 'AI slop', và ám chỉ đến bộ sưu tập các ứng dụng và dịch vụ theo chủ đề AI được lưu trữ trên máy chủ C2 của tác nhân đe dọa", HUMAN giải thích.
+Gian lận quảng cáo cực kỳ tinh vi
+Gian lận quảng cáo bao gồm nhiều cấp độ chiến thuật trốn tránh để tránh bị phát hiện bởi quy trình đánh giá ứng dụng và phần mềm bảo mật của Google.
+Nếu người dùng cài đặt ứng dụng SlopAd một cách tự nhiên thông qua Cửa hàng Play, mà không phải từ một trong những quảng cáo của chiến dịch, thì ứng dụng đó sẽ hoạt động như một ứng dụng bình thường, thực hiện chức năng được quảng cáo như bình thường.
+Tuy nhiên, nếu xác định được ứng dụng được cài đặt bởi người dùng nhấp vào liên kết đến thông qua một trong các chiến dịch quảng cáo của tác nhân đe dọa, phần mềm sẽ sử dụng Firebase Remote Config để tải xuống tệp cấu hình được mã hóa có chứa URL cho mô-đun phần mềm độc hại gian lận quảng cáo, máy chủ rút tiền và tải JavaScript.
+Sau đó, ứng dụng sẽ xác định xem nó có được cài đặt trên thiết bị của người dùng hợp pháp hay không, thay vì được phân tích bởi nhà nghiên cứu hoặc phần mềm bảo mật.
+Nếu ứng dụng vượt qua các bước kiểm tra này, nó sẽ tải xuống bốn hình ảnh PNG sử dụng kỹ thuật ẩn chữ để che giấu các phần của APK độc hại, được dùng để thực hiện chính chiến dịch gian lận quảng cáo.
+Sau khi tải xuống, hình ảnh được giải mã và tái lập trên thiết bị để tạo thành phần mềm độc hại "FatModule" hoàn chỉnh, được sử dụng để thực hiện gian lận quảng cáo.
+Sau khi FatModule được kích hoạt, nó sẽ sử dụng WebView ẩn để thu thập thông tin thiết bị và trình duyệt, sau đó điều hướng đến các tên miền gian lận quảng cáo (rút tiền) do kẻ tấn công kiểm soát.
+Việc này khiến thiết bị liên tục bị tiêu hao tài nguyên bao gồm lưu lượng data cũng như thời lượng pin và bộ nhớ cho việc truy cập các trang quảng cáo âm thầm.
+Những tên miền này giả mạo trò chơi và các trang web mới, liên tục hiển thị quảng cáo thông qua màn hình WebView ẩn để tạo ra hơn 2 tỷ lượt hiển thị và nhấp chuột quảng cáo gian lận mỗi ngày, qua đó tạo ra doanh thu cho kẻ tấn công.
+HUMAN cho biết cơ sở hạ tầng của chiến dịch bao gồm nhiều máy chủ chỉ huy và kiểm soát cùng hơn 300 tên miền quảng cáo liên quan, cho thấy kẻ tấn công đang có kế hoạch mở rộng phạm vi vượt ra ngoài 224 ứng dụng ban đầu đã được xác định.
+Kể từ đó, Google đã xóa tất cả các ứng dụng SlopAds khỏi Cửa hàng Play và Google Play Protect của Android đã được cập nhật để cảnh báo người dùng gỡ cài đặt bất kỳ ứng dụng nào có trên thiết bị.
+Tuy nhiên, HUMAN cảnh báo rằng mức độ tinh vi của chiến dịch gian lận quảng cáo cho thấy kẻ tấn công có thể sẽ điều chỉnh kế hoạch của mình để thử lại trong các cuộc tấn công trong tương lai.
+Nếu bạn vô tình tải xuống một ứng dụng, bạn không cần phải lo lắng về việc tự mình theo dõi nó. Tuy nhiên, người dùng cần chú ý trên thiết bị của mình, hệ thống sẽ xuất hiện thông báo và yêu cầu gỡ bỏ nó.
+Điều này là do Google đã cập nhật ứng dụng bảo mật tích hợp Google Play Protect của Android để cảnh báo người dùng gỡ cài đặt bất kỳ ứng dụng độc hại nào có thể đang có trên điện thoại thông minh hoặc máy tính bảng của họ.

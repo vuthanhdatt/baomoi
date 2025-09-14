@@ -1,0 +1,7 @@
+aiohttp==3.10.5
+click==8.2.1
+requests==2.31.0
+aiolimiter==1.1.0
+beautifulsoup4==4.13.5
+transformers==4.56.1
+underthesea==6.8.4

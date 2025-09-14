@@ -1,0 +1,10 @@
+Sáng 17-9, hơn 3.000 học sinh lớp 10, 11, 12 các trường THPT công lập trên địa bàn TPHCM đã tham gia kỳ thi chọn đội tuyển học sinh giỏi cấp THPT năm học 2025-2026. Đây là kỳ thi chọn đội tuyển học sinh giỏi đầu tiên sau sắp xếp địa giới hành chính.
+Năm học này, kỳ thi chọn đội tuyển học sinh giỏi cấp THPT tại TPHCM diễn ra trong hai ngày 17 và 18-9-2025. Học sinh chọn một trong các môn thi gồm: Ngữ văn, Lịch sử, Địa lý, Toán, Vật lý, Hóa học, Sinh học, Tin học, Tiếng Anh, Tiếng Pháp, Tiếng Trung và tiếng Nhật.
+Theo thống kê của Sở GD-ĐT TPHCM, tổng số thí sinh dự thi năm nay là 3.303 em ở cả 3 khu vực gồm: khu vực 1 (TPHCM trước đây), khu vực 2 (tỉnh Bình Dương trước đây), khu vực 3 (tỉnh Bà Rịa - Vũng Tàu trước đây).
+Trong đó, môn Tiếng Anh có số thí sinh dự thi đông nhất với 779 em, kế đó là môn Ngữ văn với 481 thí sinh. Môn thi có số thí sinh dự thi ít nhất là Tiếng Pháp với 68 thí sinh.
+Học sinh lớp 10, 11, 12 làm bài theo đề thi chung.
+Nội dung đề thi nằm trong chương trình giáo dục phổ thông, nội dung dạy học các môn chuyên cấp THPT và chương trình nâng cao. Thời gian làm mỗi bài thi là 180 phút. Bài thi thứ 2 các môn ngoại ngữ bao gồm phần thi nghe; môn tin học thực hiện lập trình trên máy tính với ngôn ngữ lập trình C++, Pascal và Python.
+Các điểm thi được bố trí ở cả 3 khu vực nhằm tạo điều kiện thuận lợi cho thí sinh gồm:
+Khu vực 1: Trường THPT chuyên Lê Hồng Phong (số 235 Nguyễn Văn Cừ, phường Chợ Quán) và Trường THPT Marie Curie (số 159 Nam Kỳ Khởi Nghĩa, phường Xuân Hòa).
+Khu vực 2: Trường THPT chuyên Hùng Vương (số 593 đại lộ Bình Dương, phường Thủ Dầu Một).
+Khu vực 3: Trường THPT chuyên Lê Quý Đôn (đường 3 Tháng 2, phường Phước Thắng).
